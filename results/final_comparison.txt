@@ -1,0 +1,30 @@
+Final model comparison
+
+Random Forest baseline
+- Accuracy: 0.5200
+- Precision (attack=1): 0.53
+- Recall (attack=1): 0.52
+- F1 (attack=1): 0.52
+- False Positive Rate: 0.4659
+- Notes: Better recall, but high false positives.
+
+Rule-based baseline
+- Quantile: 0.90
+- Cutoff: 1
+- Accuracy: 0.4985
+- Precision (attack=1): 0.50
+- Recall (attack=1): 0.34
+- F1 (attack=1): 0.41
+- False Positive Rate: 0.3450
+- False Negative Rate: 0.6580
+- Notes: Lower false positives, but misses many attacks.
+
+Rule-based baseline (Improved)
+- Quantile: 0.88
+- Cutoff: 1
+- Accuracy: 0.5004
+- Precision (attack=1): ~0.50
+- Recall (attack=1): ~0.40 (better than before)
+- False Positive Rate: 0.3978
+- False Negative Rate: 0.6014
+- Notes: Balanced tradeoff between detection and false alarms after threshold tuning.

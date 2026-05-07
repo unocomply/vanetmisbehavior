@@ -1,0 +1,9 @@
+Final rule baseline
+quantile=0.9
+cutoff=1
+accuracy=0.4985
+fpr=0.3449
+fnr=0.6581
+confusion_matrix=
+[[13101  6899]
+ [13161  6839]]
