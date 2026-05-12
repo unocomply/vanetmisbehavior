@@ -28,26 +28,26 @@ https://veremi-dataset.github.io/
 
 ## Project Structure
 
-vanetmisbehavior/
-|
- |---src/
-| |-----load_data.py
-| |-----prepare_data.py
-| |-----features.py
-| |-----train_baseline.py
-| |-----rule_baseline.py
-| |-----tune_rule_baseline.py
-| |-----improved_rule.py
-| |-----demo_view.py
-|
- |---results/
-| |-----final_comparison.txt
-| |-----final_rule_baseline_metrics.txt
-| |-----improved_rule_baseline_summary.csv
-|
- |---.gitignore
- |____README.md
- 
+- vanetmisbehavior/
+- |
+-  |---src/
+- | |-----load_data.py
+- | |-----prepare_data.py
+- | |-----features.py
+- | |-----train_baseline.py
+- | |-----rule_baseline.py
+- | |-----tune_rule_baseline.py
+- | |-----improved_rule.py
+- | |-----demo_view.py
+- |
+-  |---results/
+- | |-----final_comparison.txt
+- | |-----final_rule_baseline_metrics.txt
+- | |-----improved_rule_baseline_summary.csv
+- |
+-  |---.gitignore
+-  |____README.md
+
 
 ## Methodology
 
